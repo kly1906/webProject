@@ -113,7 +113,7 @@ $(document).ready(function () {
          <p>Tỷ lệ đúng: ${((correctCount / QuizData.length) * 100).toFixed(
            2
          )}%</p>
-         <button id="restart">Làm lại Thử thách từ vựng</button>`
+         <button id="restart" class="btn">Làm lại Thử thách từ vựng</button>`
       );
     }
   });
@@ -123,19 +123,29 @@ $(document).ready(function () {
     current = 0;
     correctCount = 0;
     $(".quiz-box").empty().append(`
-      <h3 id="question"></h3>
-      <ul class="answers"></ul>
-      <p class="result"></p>
-      <button id="start">Bắt đầu</button>
-      <button id="next">Câu tiếp theo</button>
+       <h2>10 Câu hỏi trắc nghiệm</h2>
+        <h3 id="question">Câu hỏi sẽ hiện ở đây</h3>
+        <ul class="answers"></ul>
+        <p class="result"></p>
+        <button id="start" class="btn">Bắt đầu</button>
+        <button id="next" class="btn">Câu tiếp theo</button>
     `);
     $("#question, .answers, .result, #next").hide();
     $("#start").show();
+    $("#start").click(function () {
+    if (QuizData.length > 0) {
+      $("#start").hide();
+      $("#question, .answers, .result, #next").show();
+      renderQuestion(current);
+    } else {
+      $("#question").text("Không có dữ liệu câu hỏi nào.").show();
+      $("#start").hide();
+    }
   });
-function logout() {
-  localStorage.removeItem("currentUser");
-  location.reload();
-  window.location.href = "../login/login.html"
-}
-
+  });
+  function logout() {
+    localStorage.removeItem("currentUser");
+    location.reload();
+    window.location.href = "../login/login.html";
+  }
 });
