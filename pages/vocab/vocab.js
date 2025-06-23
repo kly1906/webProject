@@ -1,25 +1,33 @@
-
-let vocabData = [];
+let VocabData = [];
 let currentTopic = "";
 let topicWords = [];
 let currentIndex = 0;
 
 const script = document.createElement("script");
-script.src = "vocab_data_snippet.js";
+script.src = "../../data/vocab_data_snippet.js";
 script.onload = () => {
-  vocabData = window.vocabData || [];
+  VocabData = vocabData || [];
   renderTopics();
 };
 script.onerror = () => {
-  document.getElementById("topicButtons").innerText = "Không tải được chủ đề. Vui lòng kiểm tra lại file vocab_data_snippet.js.";
+  document.getElementById("topicButtons").innerText =
+    "Không tải được chủ đề. Vui lòng kiểm tra lại file vocab_data_snippet.js.";
 };
 document.head.appendChild(script);
+if (currentUser && users[currentUser]) {
+  document.getElementById(
+    "user-info"
+  ).innerHTML = `<span>Xin chào, ${users[currentUser].fullname}</span>`;
+} else {
+  document.getElementById("user-info").innerHTML =
+    '<a href="login.html">Đăng nhập / Đăng ký</a>';
+}
 
 function renderTopics() {
   const container = document.getElementById("topicButtons");
-  const topics = [...new Set(vocabData.map(item => item.topic))];
+  const topics = [...new Set(VocabData.map((item) => item.topic))];
   container.innerHTML = "";
-  topics.forEach(topic => {
+  topics.forEach((topic) => {
     const btn = document.createElement("button");
     btn.innerText = topic;
     btn.onclick = () => loadTopic(topic);
@@ -29,7 +37,7 @@ function renderTopics() {
 
 function loadTopic(topic) {
   currentTopic = topic;
-  topicWords = vocabData.filter(item => item.topic === topic);
+  topicWords = VocabData.filter((item) => item.topic === topic);
   currentIndex = 0;
   document.getElementById("topicButtons").style.display = "none";
   document.getElementById("flashcardContainer").style.display = "flex";

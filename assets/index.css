@@ -1,9 +1,23 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
   margin: 0;
   background: linear-gradient(to bottom, #f4f4fa, #eae6f7);
   color: #333;
 }
+
+main {
+  flex: 1;
+}
+
 header {
   background-color: #6c4a9c;
   padding: 20px 40px;
@@ -16,7 +30,8 @@ header h1 {
   margin: 0;
   font-size: 24px;
 }
-#user-info a, #user-info span {
+#user-info a,
+#user-info span {
   background-color: #fff;
   color: #6c4a9c;
   padding: 8px 16px;
@@ -43,9 +58,26 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  color: #000;
-  text-decoration: underline;
+  color: #4a00e0;
 }
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+  filter: brightness(0.7);
+}
+
 .hero {
   text-align: center;
   padding: 80px 20px;
@@ -99,7 +131,7 @@ footer {
   width: 90%;
   max-width: 400px;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   position: relative;
 }
 .popup-content h3 {
@@ -131,4 +163,99 @@ footer {
 }
 .popup-content .signup {
   background-color: #ffb84d;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  #user-info {
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 12px;
+    font-size: 15px;
+    padding: 10px 0;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .hero button {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  #user-info a,
+  #user-info span {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .popup-content {
+    margin: 25% auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    font-size: 14px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .hero button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .popup-content button {
+    min-width: 100%;
+    margin: 8px 0;
+  }
+
+  .popup-content {
+    margin: 30% auto;
+    padding: 16px;
+  }
+
+  .popup-content h3 {
+    font-size: 18px;
+  }
 }

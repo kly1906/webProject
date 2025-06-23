@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học từ vựng theo chủ đề</title>
+    <link rel="stylesheet" href="vocab.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="../../index.html">Học từ vựng tiếng Anh </a></h1>
+      <div id="user-info"></div>
+    </header>
+
+    <nav>
+      <a href="#" onclick="window.location.href='../quiz/quiz.html'"
+        >Bài kiểm tra</a
+      >
+      <a href="#" onclick="window.location.href='../profile/profile.html'"
+        >Trang cá nhân</a
+      >
+      <a href="#" onclick="logout()">Đăng xuất</a>
+    </nav>
+    <main>
+      <div class="background">
+        <img src="/assets/images/background.jpeg" alt="" />
+      </div>
+      <section class="content">
+        <h2>Mời chọn chủ đề:</h2>
+        <div class="topics" id="topicButtons">Đang tải chủ đề...</div>
+        <div class="flashcard-container" id="flashcardContainer">
+          <div class="flashcard" id="flashcard"></div>
+          <div class="nav-buttons">
+            <button onclick="prevCard()">⬅</button>
+            <button onclick="nextCard()">➡</button>
+          </div>
+        </div>
+
+        <button
+          id="backBtn"
+          class="back-btn"
+          onclick="showTopics()"
+          style="display: none"
+        >
+          ← Quay lại
+        </button>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 - Web học từ vựng | Dự án môn Thiết kế Web</p>
+    </footer>
+    <script src="vocab.js"></script>
+    <script src="vocab_data_snippet.js"></script>
+  </body>
+</html>
