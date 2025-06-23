@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
@@ -21,6 +22,7 @@ body {
 main {
   flex: 1;
 }
+
 header {
   background-color: #6c4a9c;
   padding: 20px 40px;
@@ -29,10 +31,12 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 header h1 {
   margin: 0;
   font-size: 24px;
 }
+
 a {
   text-decoration: none;
   color: #eee;
@@ -77,6 +81,7 @@ a {
 #logout-btn:hover {
   background: linear-gradient(to right, #ff6b6b, #f44336);
 }
+
 nav {
   background-color: #eee;
   display: flex;
@@ -86,10 +91,12 @@ nav {
   font-weight: bold;
   font-size: 16px;
 }
+
 nav a {
   color: #444;
   text-decoration: none;
 }
+
 nav a:hover {
   color: #4a00e0;
 }
@@ -110,43 +117,52 @@ nav a:hover {
   opacity: 0.4;
   filter: brightness(0.7);
 }
-
-.content {
-  max-width: 800px;
-  margin: auto;
-}
-.quiz-box {
+.profile-box {
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
 }
-.answers {
-  list-style: none;
-  padding: 0;
+
+.profile-box h2 {
+  color: #6c4a9c;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
-.answers li {
+
+.profile-box h3 {
+  color: #4a00e0;
+  font-size: 20px;
+  margin: 20px 0 10px;
+}
+
+#profile-info {
+  margin-bottom: 20px;
+}
+
+#profile-info p {
+  font-size: 16px;
   margin: 10px 0;
 }
-.answer {
-  background-color: #ffcc99;
-  border: none;
-  color: #000000;
-  padding: 10px 15px;
-  border-radius: 8px;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-}
-.answer:hover {
-  scale: 1.05;
-  background-color: #ffd9b3;
-}
-.result {
-  margin-top: 20px;
+
+#profile-info strong {
+  color: #333;
   font-weight: bold;
 }
+
+#quiz-history p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+#quiz-history strong {
+  color: #333;
+  font-weight: bold;
+}
+
 footer {
   text-align: center;
   padding: 20px;
@@ -154,11 +170,8 @@ footer {
   color: #777;
   margin-top: 60px;
 }
-.quiz-box {
-  justify-content: center;
-  text-align: center;
-}
-.btn {
+
+button {
   background: linear-gradient(to right, #8e2de2, #4a00e0);
   color: white;
   padding: 14px 28px;
@@ -167,7 +180,8 @@ footer {
   border-radius: 30px;
   transition: all 0.3s ease;
 }
-.btn:hover {
+
+button:hover {
   transform: scale(1.05);
   background: linear-gradient(to right, #4a00e0, #8e2de2);
 }

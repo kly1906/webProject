@@ -21,7 +21,7 @@
 
 ## 📈 Mở rộng
 
-- 🧠 **Ghi nhớ từ đã học & kết quả bài kiểm tra**  
+- 🧠 **Ghi nhớ từ đã học & kết quả Thử thách từ vựng**  
   - Lưu tiến độ học
   - Thống kê lịch sử làm bài
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kiểm tra từ vựng</title>
+    <title>Thử thách từ vựng từ vựng</title>
     <link rel="stylesheet" href="quiz.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
@@ -15,27 +15,26 @@
 
     <nav>
       <a href="#" onclick="window.location.href='../vocab/vocab.html'"
-        >Từ vựng</a
+        >Học từ mới</a
       >
       <a href="#" onclick="window.location.href='../profile/profile.html'"
         >Trang cá nhân</a
       >
-      <a href="#" onclick="logout()">Đăng xuất</a>
     </nav>
     <main>
       <div class="background">
         <img src="/assets/images/background.jpeg" alt="" />
       </div>
       <section class="content">
-        <h2>Câu hỏi trắc nghiệm</h2>
-        <div class="quiz-box">
+        <section class="quiz-box">
+          <h2>10 Câu hỏi trắc nghiệm</h2>
+
           <h3 id="question">Câu hỏi sẽ hiện ở đây</h3>
           <ul class="answers"></ul>
           <p class="result"></p>
-          <button id="next" style="display: none; margin-top: 10px">
-            Câu tiếp theo
-          </button>
-        </div>
+          <button id="start" class="btn">Bắt đầu</button>
+          <button id="next" class="btn">Câu tiếp theo</button>
+        </section>
       </section>
     </main>
 

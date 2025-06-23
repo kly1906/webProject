@@ -2,6 +2,8 @@ let VocabData = [];
 let currentTopic = "";
 let topicWords = [];
 let currentIndex = 0;
+const currentUser = localStorage.getItem("currentUser");
+const users = JSON.parse(localStorage.getItem("users")) || {};
 
 const script = document.createElement("script");
 script.src = "../../data/vocab_data_snippet.js";
@@ -11,13 +13,19 @@ script.onload = () => {
 };
 script.onerror = () => {
   document.getElementById("topicButtons").innerText =
-    "Không tải được chủ đề. Vui lòng kiểm tra lại file vocab_data_snippet.js.";
+    "Không tải được chủ đề. Vui lòng Thử thách từ vựng lại file vocab_data_snippet.js.";
 };
 document.head.appendChild(script);
+
 if (currentUser && users[currentUser]) {
-  document.getElementById(
-    "user-info"
-  ).innerHTML = `<span>Xin chào, ${users[currentUser].fullname}</span>`;
+  document.getElementById("user-info").innerHTML = `
+      <span>Xin chào, ${users[currentUser].fullname}</span>
+      <button id="logout-btn">Đăng Xuất</button>
+    `;
+  $("#logout-btn").click(function () {
+    localStorage.removeItem("currentUser");
+    window.location.href = "login.html";
+  });
 } else {
   document.getElementById("user-info").innerHTML =
     '<a href="login.html">Đăng nhập / Đăng ký</a>';
@@ -39,6 +47,7 @@ function loadTopic(topic) {
   currentTopic = topic;
   topicWords = VocabData.filter((item) => item.topic === topic);
   currentIndex = 0;
+  document.getElementById("titleChoose").style.display = "none";
   document.getElementById("topicButtons").style.display = "none";
   document.getElementById("flashcardContainer").style.display = "flex";
   document.getElementById("backBtn").style.display = "block";
@@ -73,7 +82,8 @@ function prevCard() {
 function showTopics() {
   document.getElementById("flashcardContainer").style.display = "none";
   document.getElementById("backBtn").style.display = "none";
-  document.getElementById("topicButtons").style.display = "flex";
+  document.getElementById("topicButtons").style.display = "grid";
+  document.getElementById("titleChoose").style.display = "block";
 }
 
 function speak(word) {
