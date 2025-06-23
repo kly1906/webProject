@@ -1,0 +1,1802 @@
+[
+  {
+    "topic": "Gia đình",
+    "word": "father",
+    "vn": "bố",
+    "ipa": "/f.a.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "mother",
+    "vn": "mẹ",
+    "ipa": "/m.o.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "brother",
+    "vn": "brother",
+    "ipa": "/b.r.o.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "sister",
+    "vn": "sister",
+    "ipa": "/s.i.s.t.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "uncle",
+    "vn": "uncle",
+    "ipa": "/u.n.c.l.e/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "aunt",
+    "vn": "aunt",
+    "ipa": "/a.u.n.t/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "grandfather",
+    "vn": "grandfather",
+    "ipa": "/g.r.a.n.d.f.a.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "grandmother",
+    "vn": "grandmother",
+    "ipa": "/g.r.a.n.d.m.o.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "cousin",
+    "vn": "cousin",
+    "ipa": "/c.o.u.s.i.n/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "baby",
+    "vn": "baby",
+    "ipa": "/b.a.b.y/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "student",
+    "vn": "student",
+    "ipa": "/s.t.u.d.e.n.t/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "teacher",
+    "vn": "teacher",
+    "ipa": "/t.e.a.c.h.e.r/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "book",
+    "vn": "sách",
+    "ipa": "/b.o.o.k/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "pen",
+    "vn": "pen",
+    "ipa": "/p.e.n/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "pencil",
+    "vn": "pencil",
+    "ipa": "/p.e.n.c.i.l/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "eraser",
+    "vn": "eraser",
+    "ipa": "/e.r.a.s.e.r/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "notebook",
+    "vn": "notebook",
+    "ipa": "/n.o.t.e.b.o.o.k/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "board",
+    "vn": "board",
+    "ipa": "/b.o.a.r.d/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "school",
+    "vn": "trường",
+    "ipa": "/s.c.h.o.o.l/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "classroom",
+    "vn": "classroom",
+    "ipa": "/c.l.a.s.s.r.o.o.m/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "red",
+    "vn": "red",
+    "ipa": "/r.e.d/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "blue",
+    "vn": "blue",
+    "ipa": "/b.l.u.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "green",
+    "vn": "green",
+    "ipa": "/g.r.e.e.n/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "yellow",
+    "vn": "yellow",
+    "ipa": "/y.e.l.l.o.w/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "black",
+    "vn": "black",
+    "ipa": "/b.l.a.c.k/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "white",
+    "vn": "white",
+    "ipa": "/w.h.i.t.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "pink",
+    "vn": "pink",
+    "ipa": "/p.i.n.k/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "orange",
+    "vn": "orange",
+    "ipa": "/o.r.a.n.g.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "purple",
+    "vn": "purple",
+    "ipa": "/p.u.r.p.l.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "brown",
+    "vn": "brown",
+    "ipa": "/b.r.o.w.n/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "sunny",
+    "vn": "sunny",
+    "ipa": "/s.u.n.n.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "rainy",
+    "vn": "rainy",
+    "ipa": "/r.a.i.n.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "cloudy",
+    "vn": "cloudy",
+    "ipa": "/c.l.o.u.d.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "stormy",
+    "vn": "stormy",
+    "ipa": "/s.t.o.r.m.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "windy",
+    "vn": "windy",
+    "ipa": "/w.i.n.d.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "snowy",
+    "vn": "snowy",
+    "ipa": "/s.n.o.w.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "hot",
+    "vn": "hot",
+    "ipa": "/h.o.t/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "cold",
+    "vn": "cold",
+    "ipa": "/c.o.l.d/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "foggy",
+    "vn": "foggy",
+    "ipa": "/f.o.g.g.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "humid",
+    "vn": "humid",
+    "ipa": "/h.u.m.i.d/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "dog",
+    "vn": "chó",
+    "ipa": "/d.o.g/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "cat",
+    "vn": "mèo",
+    "ipa": "/c.a.t/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "bird",
+    "vn": "bird",
+    "ipa": "/b.i.r.d/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "fish",
+    "vn": "fish",
+    "ipa": "/f.i.s.h/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "tiger",
+    "vn": "tiger",
+    "ipa": "/t.i.g.e.r/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "lion",
+    "vn": "lion",
+    "ipa": "/l.i.o.n/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "elephant",
+    "vn": "elephant",
+    "ipa": "/e.l.e.p.h.a.n.t/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "monkey",
+    "vn": "monkey",
+    "ipa": "/m.o.n.k.e.y/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "horse",
+    "vn": "horse",
+    "ipa": "/h.o.r.s.e/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "bear",
+    "vn": "bear",
+    "ipa": "/b.e.a.r/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "apple",
+    "vn": "táo",
+    "ipa": "/a.p.p.l.e/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "banana",
+    "vn": "banana",
+    "ipa": "/b.a.n.a.n.a/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "bread",
+    "vn": "bánh mì",
+    "ipa": "/b.r.e.a.d/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "rice",
+    "vn": "rice",
+    "ipa": "/r.i.c.e/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "meat",
+    "vn": "meat",
+    "ipa": "/m.e.a.t/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "egg",
+    "vn": "egg",
+    "ipa": "/e.g.g/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "milk",
+    "vn": "milk",
+    "ipa": "/m.i.l.k/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "cheese",
+    "vn": "cheese",
+    "ipa": "/c.h.e.e.s.e/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "water",
+    "vn": "water",
+    "ipa": "/w.a.t.e.r/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "juice",
+    "vn": "juice",
+    "ipa": "/j.u.i.c.e/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "happy",
+    "vn": "vui",
+    "ipa": "/h.a.p.p.y/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "sad",
+    "vn": "sad",
+    "ipa": "/s.a.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "angry",
+    "vn": "angry",
+    "ipa": "/a.n.g.r.y/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "scared",
+    "vn": "scared",
+    "ipa": "/s.c.a.r.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "tired",
+    "vn": "tired",
+    "ipa": "/t.i.r.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "excited",
+    "vn": "excited",
+    "ipa": "/e.x.c.i.t.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "nervous",
+    "vn": "nervous",
+    "ipa": "/n.e.r.v.o.u.s/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "bored",
+    "vn": "bored",
+    "ipa": "/b.o.r.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "confused",
+    "vn": "confused",
+    "ipa": "/c.o.n.f.u.s.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "calm",
+    "vn": "calm",
+    "ipa": "/c.a.l.m/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "head",
+    "vn": "head",
+    "ipa": "/h.e.a.d/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "hand",
+    "vn": "hand",
+    "ipa": "/h.a.n.d/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "leg",
+    "vn": "leg",
+    "ipa": "/l.e.g/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "foot",
+    "vn": "foot",
+    "ipa": "/f.o.o.t/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "eye",
+    "vn": "mắt",
+    "ipa": "/e.y.e/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "ear",
+    "vn": "ear",
+    "ipa": "/e.a.r/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "nose",
+    "vn": "nose",
+    "ipa": "/n.o.s.e/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "mouth",
+    "vn": "mouth",
+    "ipa": "/m.o.u.t.h/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "arm",
+    "vn": "arm",
+    "ipa": "/a.r.m/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "back",
+    "vn": "back",
+    "ipa": "/b.a.c.k/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "one",
+    "vn": "một",
+    "ipa": "/o.n.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "two",
+    "vn": "two",
+    "ipa": "/t.w.o/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "three",
+    "vn": "three",
+    "ipa": "/t.h.r.e.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "four",
+    "vn": "four",
+    "ipa": "/f.o.u.r/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "five",
+    "vn": "five",
+    "ipa": "/f.i.v.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "six",
+    "vn": "six",
+    "ipa": "/s.i.x/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "seven",
+    "vn": "seven",
+    "ipa": "/s.e.v.e.n/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "eight",
+    "vn": "eight",
+    "ipa": "/e.i.g.h.t/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "nine",
+    "vn": "nine",
+    "ipa": "/n.i.n.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "ten",
+    "vn": "ten",
+    "ipa": "/t.e.n/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "morning",
+    "vn": "buổi sáng",
+    "ipa": "/m.o.r.n.i.n.g/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "afternoon",
+    "vn": "afternoon",
+    "ipa": "/a.f.t.e.r.n.o.o.n/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "evening",
+    "vn": "evening",
+    "ipa": "/e.v.e.n.i.n.g/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "night",
+    "vn": "night",
+    "ipa": "/n.i.g.h.t/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "today",
+    "vn": "today",
+    "ipa": "/t.o.d.a.y/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "tomorrow",
+    "vn": "tomorrow",
+    "ipa": "/t.o.m.o.r.r.o.w/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "yesterday",
+    "vn": "yesterday",
+    "ipa": "/y.e.s.t.e.r.d.a.y/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "week",
+    "vn": "week",
+    "ipa": "/w.e.e.k/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "month",
+    "vn": "month",
+    "ipa": "/m.o.n.t.h/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "year",
+    "vn": "year",
+    "ipa": "/y.e.a.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "father",
+    "vn": "bố",
+    "ipa": "/f.a.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "mother",
+    "vn": "mẹ",
+    "ipa": "/m.o.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "brother",
+    "vn": "brother",
+    "ipa": "/b.r.o.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "sister",
+    "vn": "sister",
+    "ipa": "/s.i.s.t.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "uncle",
+    "vn": "uncle",
+    "ipa": "/u.n.c.l.e/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "aunt",
+    "vn": "aunt",
+    "ipa": "/a.u.n.t/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "grandfather",
+    "vn": "grandfather",
+    "ipa": "/g.r.a.n.d.f.a.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "grandmother",
+    "vn": "grandmother",
+    "ipa": "/g.r.a.n.d.m.o.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "cousin",
+    "vn": "cousin",
+    "ipa": "/c.o.u.s.i.n/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "baby",
+    "vn": "baby",
+    "ipa": "/b.a.b.y/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "student",
+    "vn": "student",
+    "ipa": "/s.t.u.d.e.n.t/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "teacher",
+    "vn": "teacher",
+    "ipa": "/t.e.a.c.h.e.r/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "book",
+    "vn": "sách",
+    "ipa": "/b.o.o.k/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "pen",
+    "vn": "pen",
+    "ipa": "/p.e.n/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "pencil",
+    "vn": "pencil",
+    "ipa": "/p.e.n.c.i.l/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "eraser",
+    "vn": "eraser",
+    "ipa": "/e.r.a.s.e.r/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "notebook",
+    "vn": "notebook",
+    "ipa": "/n.o.t.e.b.o.o.k/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "board",
+    "vn": "board",
+    "ipa": "/b.o.a.r.d/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "school",
+    "vn": "trường",
+    "ipa": "/s.c.h.o.o.l/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "classroom",
+    "vn": "classroom",
+    "ipa": "/c.l.a.s.s.r.o.o.m/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "red",
+    "vn": "red",
+    "ipa": "/r.e.d/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "blue",
+    "vn": "blue",
+    "ipa": "/b.l.u.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "green",
+    "vn": "green",
+    "ipa": "/g.r.e.e.n/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "yellow",
+    "vn": "yellow",
+    "ipa": "/y.e.l.l.o.w/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "black",
+    "vn": "black",
+    "ipa": "/b.l.a.c.k/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "white",
+    "vn": "white",
+    "ipa": "/w.h.i.t.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "pink",
+    "vn": "pink",
+    "ipa": "/p.i.n.k/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "orange",
+    "vn": "orange",
+    "ipa": "/o.r.a.n.g.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "purple",
+    "vn": "purple",
+    "ipa": "/p.u.r.p.l.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "brown",
+    "vn": "brown",
+    "ipa": "/b.r.o.w.n/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "sunny",
+    "vn": "sunny",
+    "ipa": "/s.u.n.n.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "rainy",
+    "vn": "rainy",
+    "ipa": "/r.a.i.n.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "cloudy",
+    "vn": "cloudy",
+    "ipa": "/c.l.o.u.d.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "stormy",
+    "vn": "stormy",
+    "ipa": "/s.t.o.r.m.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "windy",
+    "vn": "windy",
+    "ipa": "/w.i.n.d.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "snowy",
+    "vn": "snowy",
+    "ipa": "/s.n.o.w.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "hot",
+    "vn": "hot",
+    "ipa": "/h.o.t/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "cold",
+    "vn": "cold",
+    "ipa": "/c.o.l.d/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "foggy",
+    "vn": "foggy",
+    "ipa": "/f.o.g.g.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "humid",
+    "vn": "humid",
+    "ipa": "/h.u.m.i.d/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "dog",
+    "vn": "chó",
+    "ipa": "/d.o.g/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "cat",
+    "vn": "mèo",
+    "ipa": "/c.a.t/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "bird",
+    "vn": "bird",
+    "ipa": "/b.i.r.d/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "fish",
+    "vn": "fish",
+    "ipa": "/f.i.s.h/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "tiger",
+    "vn": "tiger",
+    "ipa": "/t.i.g.e.r/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "lion",
+    "vn": "lion",
+    "ipa": "/l.i.o.n/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "elephant",
+    "vn": "elephant",
+    "ipa": "/e.l.e.p.h.a.n.t/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "monkey",
+    "vn": "monkey",
+    "ipa": "/m.o.n.k.e.y/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "horse",
+    "vn": "horse",
+    "ipa": "/h.o.r.s.e/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "bear",
+    "vn": "bear",
+    "ipa": "/b.e.a.r/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "apple",
+    "vn": "táo",
+    "ipa": "/a.p.p.l.e/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "banana",
+    "vn": "banana",
+    "ipa": "/b.a.n.a.n.a/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "bread",
+    "vn": "bánh mì",
+    "ipa": "/b.r.e.a.d/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "rice",
+    "vn": "rice",
+    "ipa": "/r.i.c.e/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "meat",
+    "vn": "meat",
+    "ipa": "/m.e.a.t/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "egg",
+    "vn": "egg",
+    "ipa": "/e.g.g/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "milk",
+    "vn": "milk",
+    "ipa": "/m.i.l.k/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "cheese",
+    "vn": "cheese",
+    "ipa": "/c.h.e.e.s.e/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "water",
+    "vn": "water",
+    "ipa": "/w.a.t.e.r/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "juice",
+    "vn": "juice",
+    "ipa": "/j.u.i.c.e/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "happy",
+    "vn": "vui",
+    "ipa": "/h.a.p.p.y/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "sad",
+    "vn": "sad",
+    "ipa": "/s.a.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "angry",
+    "vn": "angry",
+    "ipa": "/a.n.g.r.y/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "scared",
+    "vn": "scared",
+    "ipa": "/s.c.a.r.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "tired",
+    "vn": "tired",
+    "ipa": "/t.i.r.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "excited",
+    "vn": "excited",
+    "ipa": "/e.x.c.i.t.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "nervous",
+    "vn": "nervous",
+    "ipa": "/n.e.r.v.o.u.s/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "bored",
+    "vn": "bored",
+    "ipa": "/b.o.r.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "confused",
+    "vn": "confused",
+    "ipa": "/c.o.n.f.u.s.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "calm",
+    "vn": "calm",
+    "ipa": "/c.a.l.m/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "head",
+    "vn": "head",
+    "ipa": "/h.e.a.d/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "hand",
+    "vn": "hand",
+    "ipa": "/h.a.n.d/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "leg",
+    "vn": "leg",
+    "ipa": "/l.e.g/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "foot",
+    "vn": "foot",
+    "ipa": "/f.o.o.t/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "eye",
+    "vn": "mắt",
+    "ipa": "/e.y.e/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "ear",
+    "vn": "ear",
+    "ipa": "/e.a.r/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "nose",
+    "vn": "nose",
+    "ipa": "/n.o.s.e/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "mouth",
+    "vn": "mouth",
+    "ipa": "/m.o.u.t.h/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "arm",
+    "vn": "arm",
+    "ipa": "/a.r.m/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "back",
+    "vn": "back",
+    "ipa": "/b.a.c.k/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "one",
+    "vn": "một",
+    "ipa": "/o.n.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "two",
+    "vn": "two",
+    "ipa": "/t.w.o/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "three",
+    "vn": "three",
+    "ipa": "/t.h.r.e.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "four",
+    "vn": "four",
+    "ipa": "/f.o.u.r/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "five",
+    "vn": "five",
+    "ipa": "/f.i.v.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "six",
+    "vn": "six",
+    "ipa": "/s.i.x/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "seven",
+    "vn": "seven",
+    "ipa": "/s.e.v.e.n/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "eight",
+    "vn": "eight",
+    "ipa": "/e.i.g.h.t/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "nine",
+    "vn": "nine",
+    "ipa": "/n.i.n.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "ten",
+    "vn": "ten",
+    "ipa": "/t.e.n/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "morning",
+    "vn": "buổi sáng",
+    "ipa": "/m.o.r.n.i.n.g/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "afternoon",
+    "vn": "afternoon",
+    "ipa": "/a.f.t.e.r.n.o.o.n/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "evening",
+    "vn": "evening",
+    "ipa": "/e.v.e.n.i.n.g/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "night",
+    "vn": "night",
+    "ipa": "/n.i.g.h.t/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "today",
+    "vn": "today",
+    "ipa": "/t.o.d.a.y/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "tomorrow",
+    "vn": "tomorrow",
+    "ipa": "/t.o.m.o.r.r.o.w/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "yesterday",
+    "vn": "yesterday",
+    "ipa": "/y.e.s.t.e.r.d.a.y/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "week",
+    "vn": "week",
+    "ipa": "/w.e.e.k/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "month",
+    "vn": "month",
+    "ipa": "/m.o.n.t.h/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "year",
+    "vn": "year",
+    "ipa": "/y.e.a.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "father",
+    "vn": "bố",
+    "ipa": "/f.a.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "mother",
+    "vn": "mẹ",
+    "ipa": "/m.o.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "brother",
+    "vn": "brother",
+    "ipa": "/b.r.o.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "sister",
+    "vn": "sister",
+    "ipa": "/s.i.s.t.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "uncle",
+    "vn": "uncle",
+    "ipa": "/u.n.c.l.e/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "aunt",
+    "vn": "aunt",
+    "ipa": "/a.u.n.t/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "grandfather",
+    "vn": "grandfather",
+    "ipa": "/g.r.a.n.d.f.a.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "grandmother",
+    "vn": "grandmother",
+    "ipa": "/g.r.a.n.d.m.o.t.h.e.r/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "cousin",
+    "vn": "cousin",
+    "ipa": "/c.o.u.s.i.n/"
+  },
+  {
+    "topic": "Gia đình",
+    "word": "baby",
+    "vn": "baby",
+    "ipa": "/b.a.b.y/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "student",
+    "vn": "student",
+    "ipa": "/s.t.u.d.e.n.t/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "teacher",
+    "vn": "teacher",
+    "ipa": "/t.e.a.c.h.e.r/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "book",
+    "vn": "sách",
+    "ipa": "/b.o.o.k/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "pen",
+    "vn": "pen",
+    "ipa": "/p.e.n/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "pencil",
+    "vn": "pencil",
+    "ipa": "/p.e.n.c.i.l/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "eraser",
+    "vn": "eraser",
+    "ipa": "/e.r.a.s.e.r/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "notebook",
+    "vn": "notebook",
+    "ipa": "/n.o.t.e.b.o.o.k/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "board",
+    "vn": "board",
+    "ipa": "/b.o.a.r.d/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "school",
+    "vn": "trường",
+    "ipa": "/s.c.h.o.o.l/"
+  },
+  {
+    "topic": "Trường học",
+    "word": "classroom",
+    "vn": "classroom",
+    "ipa": "/c.l.a.s.s.r.o.o.m/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "red",
+    "vn": "red",
+    "ipa": "/r.e.d/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "blue",
+    "vn": "blue",
+    "ipa": "/b.l.u.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "green",
+    "vn": "green",
+    "ipa": "/g.r.e.e.n/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "yellow",
+    "vn": "yellow",
+    "ipa": "/y.e.l.l.o.w/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "black",
+    "vn": "black",
+    "ipa": "/b.l.a.c.k/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "white",
+    "vn": "white",
+    "ipa": "/w.h.i.t.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "pink",
+    "vn": "pink",
+    "ipa": "/p.i.n.k/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "orange",
+    "vn": "orange",
+    "ipa": "/o.r.a.n.g.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "purple",
+    "vn": "purple",
+    "ipa": "/p.u.r.p.l.e/"
+  },
+  {
+    "topic": "Màu sắc",
+    "word": "brown",
+    "vn": "brown",
+    "ipa": "/b.r.o.w.n/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "sunny",
+    "vn": "sunny",
+    "ipa": "/s.u.n.n.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "rainy",
+    "vn": "rainy",
+    "ipa": "/r.a.i.n.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "cloudy",
+    "vn": "cloudy",
+    "ipa": "/c.l.o.u.d.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "stormy",
+    "vn": "stormy",
+    "ipa": "/s.t.o.r.m.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "windy",
+    "vn": "windy",
+    "ipa": "/w.i.n.d.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "snowy",
+    "vn": "snowy",
+    "ipa": "/s.n.o.w.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "hot",
+    "vn": "hot",
+    "ipa": "/h.o.t/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "cold",
+    "vn": "cold",
+    "ipa": "/c.o.l.d/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "foggy",
+    "vn": "foggy",
+    "ipa": "/f.o.g.g.y/"
+  },
+  {
+    "topic": "Thời tiết",
+    "word": "humid",
+    "vn": "humid",
+    "ipa": "/h.u.m.i.d/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "dog",
+    "vn": "chó",
+    "ipa": "/d.o.g/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "cat",
+    "vn": "mèo",
+    "ipa": "/c.a.t/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "bird",
+    "vn": "bird",
+    "ipa": "/b.i.r.d/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "fish",
+    "vn": "fish",
+    "ipa": "/f.i.s.h/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "tiger",
+    "vn": "tiger",
+    "ipa": "/t.i.g.e.r/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "lion",
+    "vn": "lion",
+    "ipa": "/l.i.o.n/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "elephant",
+    "vn": "elephant",
+    "ipa": "/e.l.e.p.h.a.n.t/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "monkey",
+    "vn": "monkey",
+    "ipa": "/m.o.n.k.e.y/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "horse",
+    "vn": "horse",
+    "ipa": "/h.o.r.s.e/"
+  },
+  {
+    "topic": "Động vật",
+    "word": "bear",
+    "vn": "bear",
+    "ipa": "/b.e.a.r/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "apple",
+    "vn": "táo",
+    "ipa": "/a.p.p.l.e/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "banana",
+    "vn": "banana",
+    "ipa": "/b.a.n.a.n.a/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "bread",
+    "vn": "bánh mì",
+    "ipa": "/b.r.e.a.d/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "rice",
+    "vn": "rice",
+    "ipa": "/r.i.c.e/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "meat",
+    "vn": "meat",
+    "ipa": "/m.e.a.t/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "egg",
+    "vn": "egg",
+    "ipa": "/e.g.g/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "milk",
+    "vn": "milk",
+    "ipa": "/m.i.l.k/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "cheese",
+    "vn": "cheese",
+    "ipa": "/c.h.e.e.s.e/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "water",
+    "vn": "water",
+    "ipa": "/w.a.t.e.r/"
+  },
+  {
+    "topic": "Thực phẩm",
+    "word": "juice",
+    "vn": "juice",
+    "ipa": "/j.u.i.c.e/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "happy",
+    "vn": "vui",
+    "ipa": "/h.a.p.p.y/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "sad",
+    "vn": "sad",
+    "ipa": "/s.a.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "angry",
+    "vn": "angry",
+    "ipa": "/a.n.g.r.y/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "scared",
+    "vn": "scared",
+    "ipa": "/s.c.a.r.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "tired",
+    "vn": "tired",
+    "ipa": "/t.i.r.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "excited",
+    "vn": "excited",
+    "ipa": "/e.x.c.i.t.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "nervous",
+    "vn": "nervous",
+    "ipa": "/n.e.r.v.o.u.s/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "bored",
+    "vn": "bored",
+    "ipa": "/b.o.r.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "confused",
+    "vn": "confused",
+    "ipa": "/c.o.n.f.u.s.e.d/"
+  },
+  {
+    "topic": "Cảm xúc",
+    "word": "calm",
+    "vn": "calm",
+    "ipa": "/c.a.l.m/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "head",
+    "vn": "head",
+    "ipa": "/h.e.a.d/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "hand",
+    "vn": "hand",
+    "ipa": "/h.a.n.d/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "leg",
+    "vn": "leg",
+    "ipa": "/l.e.g/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "foot",
+    "vn": "foot",
+    "ipa": "/f.o.o.t/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "eye",
+    "vn": "mắt",
+    "ipa": "/e.y.e/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "ear",
+    "vn": "ear",
+    "ipa": "/e.a.r/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "nose",
+    "vn": "nose",
+    "ipa": "/n.o.s.e/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "mouth",
+    "vn": "mouth",
+    "ipa": "/m.o.u.t.h/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "arm",
+    "vn": "arm",
+    "ipa": "/a.r.m/"
+  },
+  {
+    "topic": "Cơ thể",
+    "word": "back",
+    "vn": "back",
+    "ipa": "/b.a.c.k/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "one",
+    "vn": "một",
+    "ipa": "/o.n.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "two",
+    "vn": "two",
+    "ipa": "/t.w.o/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "three",
+    "vn": "three",
+    "ipa": "/t.h.r.e.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "four",
+    "vn": "four",
+    "ipa": "/f.o.u.r/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "five",
+    "vn": "five",
+    "ipa": "/f.i.v.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "six",
+    "vn": "six",
+    "ipa": "/s.i.x/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "seven",
+    "vn": "seven",
+    "ipa": "/s.e.v.e.n/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "eight",
+    "vn": "eight",
+    "ipa": "/e.i.g.h.t/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "nine",
+    "vn": "nine",
+    "ipa": "/n.i.n.e/"
+  },
+  {
+    "topic": "Số đếm",
+    "word": "ten",
+    "vn": "ten",
+    "ipa": "/t.e.n/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "morning",
+    "vn": "buổi sáng",
+    "ipa": "/m.o.r.n.i.n.g/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "afternoon",
+    "vn": "afternoon",
+    "ipa": "/a.f.t.e.r.n.o.o.n/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "evening",
+    "vn": "evening",
+    "ipa": "/e.v.e.n.i.n.g/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "night",
+    "vn": "night",
+    "ipa": "/n.i.g.h.t/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "today",
+    "vn": "today",
+    "ipa": "/t.o.d.a.y/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "tomorrow",
+    "vn": "tomorrow",
+    "ipa": "/t.o.m.o.r.r.o.w/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "yesterday",
+    "vn": "yesterday",
+    "ipa": "/y.e.s.t.e.r.d.a.y/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "week",
+    "vn": "week",
+    "ipa": "/w.e.e.k/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "month",
+    "vn": "month",
+    "ipa": "/m.o.n.t.h/"
+  },
+  {
+    "topic": "Thời gian",
+    "word": "year",
+    "vn": "year",
+    "ipa": "/y.e.a.r/"
+  }
+]

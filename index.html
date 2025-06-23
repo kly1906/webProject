@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Học từ vựng tiếng Anh - Trang chủ</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Học từ vựng tiếng Anh</h1>
+    <div id="user-info"></div>
+  </header>
+
+  <nav>
+    <a href="#" onclick="checkLoginAndRedirect('vocab.html')">Từ vựng</a>
+    <a href="#" onclick="checkLoginAndRedirect('quiz.html')">Bài kiểm tra</a>
+    <a href="#" onclick="checkLoginAndRedirect('profile.html')">Trang cá nhân</a>
+    <a href="#" onclick="logout()">Đăng xuất</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h2>Phát triển vốn từ mỗi ngày</h2>
+      <p>
+        Ứng dụng học từ vựng hiện đại, đơn giản, dễ sử dụng, lưu kết quả học của bạn và cải thiện mỗi ngày.
+      </p>
+      <button onclick="checkLoginAndRedirect('vocab.html')">Bắt đầu học</button>
+    </section>
+  </main>
+
+  <div id="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h3>Vui lòng đăng nhập hoặc đăng ký để sử dụng chức năng này.</h3>
+      <button class="login" onclick="window.location.href='login.html'">Đăng nhập</button>
+      <button class="signup" onclick="window.location.href='login.html'">Đăng ký</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Web học từ vựng | Dự án môn Thiết kế Web</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

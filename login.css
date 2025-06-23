@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f4ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background-color: #b48fd0;
+  padding: 20px;
+  color: white;
+}
+main {
+  padding: 40px 20px;
+}
+.box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 450px;
+  margin: auto;
+  padding: 30px;
+}
+.input-group {
+  text-align: left;
+  margin: 10px auto;
+  width: 80%;
+  position: relative;
+}
+.input-group label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.require-wrap {
+  position: relative;
+  display: inline-block;
+}
+.required {
+  color: red;
+  cursor: help;
+}
+.tooltip {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 120%;
+  transform: translateY(-50%);
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+.tooltip::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -6px;
+  transform: translateY(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent #ccc transparent transparent;
+}
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  transform: translateY(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+}
+.require-wrap:hover .tooltip {
+  display: block;
+}
+.input-group input, .input-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: #ffcc99;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.switch {
+  color: #555;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 14px;
+}
+.extra {
+  display: none;
+}
+footer {
+  padding: 20px;
+  background-color: #eee;
+  color: #777;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

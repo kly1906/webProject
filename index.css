@@ -1,0 +1,134 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #f4f4fa, #eae6f7);
+  color: #333;
+}
+header {
+  background-color: #6c4a9c;
+  padding: 20px 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+#user-info a, #user-info span {
+  background-color: #fff;
+  color: #6c4a9c;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+#user-info a:hover {
+  background-color: #ffccff;
+}
+nav {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 12px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+nav a {
+  color: #444;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h2 {
+  font-size: 32px;
+  color: #4a00e0;
+}
+.hero p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+.hero button {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.hero button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  color: #777;
+  margin-top: 60px;
+}
+#popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popup-content {
+  background: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  position: relative;
+}
+.popup-content h3 {
+  margin-top: 0;
+}
+.popup-content button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  min-width: 120px;
+}
+.popup-content .close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #aaa;
+}
+.popup-content .close:hover {
+  color: #000;
+}
+.popup-content .login {
+  background-color: #6c4a9c;
+  color: white;
+}
+.popup-content .signup {
+  background-color: #ffb84d;
+}
