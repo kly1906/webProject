@@ -22,13 +22,12 @@ if (currentUser && users[currentUser]) {
       <span>Xin chào, ${users[currentUser].fullname}</span>
       <button id="logout-btn">Đăng Xuất</button>
     `;
-  $("#logout-btn").click(function () {
-    localStorage.removeItem("currentUser");
-    window.location.href = "login.html";
+  document.getElementById("logout-btn").addEventListener("click", function () {
+    logout();
   });
 } else {
   document.getElementById("user-info").innerHTML =
-    '<a href="login.html">Đăng nhập / Đăng ký</a>';
+    '<a href="../login/login.html">Đăng nhập / Đăng ký</a>';
 }
 
 function renderTopics() {
@@ -90,4 +89,9 @@ function speak(word) {
   const utterance = new SpeechSynthesisUtterance(word);
   utterance.lang = "en-US";
   speechSynthesis.speak(utterance);
+}
+function logout() {
+  localStorage.removeItem("currentUser");
+  location.reload();
+  window.location.href = "../login/login.html"
 }

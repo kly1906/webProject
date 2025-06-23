@@ -2,19 +2,20 @@ $(document).ready(function () {
   const currentUser = localStorage.getItem("currentUser");
   const users = JSON.parse(localStorage.getItem("users")) || {};
   console.log(users);
-  
+
   if (currentUser && users[currentUser]) {
     document.getElementById("user-info").innerHTML = `
       <span>Xin chào, ${users[currentUser].fullname}</span>
       <button id="logout-btn">Đăng Xuất</button>
     `;
-    $("#logout-btn").click(function () {
-      localStorage.removeItem("currentUser");
-      window.location.href = "login.html";
-    });
+    document
+      .getElementById("logout-btn")
+      .addEventListener("click", function () {
+        logout();
+      });
   } else {
     document.getElementById("user-info").innerHTML =
-      '<a href="login.html">Đăng nhập / Đăng ký</a>';
+      '<a href="../login/login.html">Đăng nhập / Đăng ký</a>';
   }
   if (currentUser && users[currentUser]) {
     $("#profile-info").html(`
@@ -43,4 +44,10 @@ $(document).ready(function () {
       <p>Chưa có kết quả Thử thách từ vựng nào.</p>
     `);
   }
+function logout() {
+  localStorage.removeItem("currentUser");
+  location.reload();
+  window.location.href = "../login/login.html"
+}
+
 });

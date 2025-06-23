@@ -6,13 +6,12 @@ if (currentUser && users[currentUser]) {
       <span>Xin chào, ${users[currentUser].fullname}</span>
       <button id="logout-btn">Đăng Xuất</button>
     `;
-  $("#logout-btn").click(function () {
-    localStorage.removeItem("currentUser");
-    window.location.href = "login.html";
+  document.getElementById("logout-btn").addEventListener("click", function () {
+    logout();
   });
 } else {
   document.getElementById("user-info").innerHTML =
-    '<a href="login.html">Đăng nhập / Đăng ký</a>';
+    '<a href="./pages/login/login.html">Đăng nhập / Đăng ký</a>';
 }
 function checkLoginAndRedirect(target) {
   if (!currentUser || !users[currentUser]) {

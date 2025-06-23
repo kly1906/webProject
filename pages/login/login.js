@@ -4,7 +4,9 @@ function toggleForm() {
   isLogin = !isLogin;
   document.getElementById("form-title").innerText = isLogin ? "Đăng nhập" : "Đăng ký";
   document.getElementById("auth-btn").innerText = isLogin ? "Đăng nhập" : "Đăng ký";
-  document.getElementById("switch-text").innerText = isLogin ? "Chưa có tài khoản? Đăng ký" : "Đã có tài khoản? Đăng nhập";
+  document.getElementById("switch-text").innerHTML = isLogin 
+    ? 'Chưa có tài khoản? <span class="register-text">Đăng ký</span>' 
+    : 'Đã có tài khoản? <span class="register-text">Đăng nhập</span>';
   document.querySelector(".extra").style.display = isLogin ? "none" : "block";
   document.getElementById("error").innerText = "";
 }

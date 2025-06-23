@@ -5,19 +5,20 @@ $(document).ready(function () {
   const currentUser = localStorage.getItem("currentUser");
   const users = JSON.parse(localStorage.getItem("users")) || {};
 
-if (currentUser && users[currentUser]) {
-  document.getElementById("user-info").innerHTML = `
+  if (currentUser && users[currentUser]) {
+    document.getElementById("user-info").innerHTML = `
       <span>Xin chào, ${users[currentUser].fullname}</span>
       <button id="logout-btn">Đăng Xuất</button>
     `;
-  $("#logout-btn").click(function () {
-    localStorage.removeItem("currentUser");
-    window.location.href = "login.html";
-  });
-} else {
-  document.getElementById("user-info").innerHTML =
-    '<a href="login.html">Đăng nhập / Đăng ký</a>';
-}
+    document
+      .getElementById("logout-btn")
+      .addEventListener("click", function () {
+        logout();
+      });
+  } else {
+    document.getElementById("user-info").innerHTML =
+      '<a href="../login/login.html">Đăng nhập / Đăng ký</a>';
+  }
 
   $("#question, .answers, .result, #next").hide();
   $("#start").show();
@@ -31,7 +32,7 @@ if (currentUser && users[currentUser]) {
   script.src = "../../data/quiz_data_snippet.js";
   script.onload = () => {
     if (typeof quizData !== "undefined" && Array.isArray(quizData)) {
-      QuizData = getRandomQuestions(quizData, 10); 
+      QuizData = getRandomQuestions(quizData, 10);
     } else {
       $("#question").text("Dữ liệu quiz không hợp lệ.").show();
       $("#start").hide();
@@ -131,4 +132,10 @@ if (currentUser && users[currentUser]) {
     $("#question, .answers, .result, #next").hide();
     $("#start").show();
   });
+function logout() {
+  localStorage.removeItem("currentUser");
+  location.reload();
+  window.location.href = "../login/login.html"
+}
+
 });

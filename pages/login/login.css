@@ -95,6 +95,14 @@ button {
   font-weight: bold;
   margin-top: 10px;
 }
+.register-text {
+  cursor: pointer;
+}
+
+.register-text:hover {
+  color: #007bff; /* Desired hover color */
+  text-decoration: underline; /* Optional */
+}
 .switch {
   color: #555;
   font-size: 14px;
