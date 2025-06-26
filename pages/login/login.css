@@ -1,11 +1,25 @@
+html,
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f8f4ff;
-  color: #333;
+  height: 100%;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
+
+body {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #f4f4fa, #eae6f7);
+  color: #333;
+}
+
+main {
+  flex: 1;
+}
+
 header {
   background-color: #b48fd0;
   padding: 20px;
@@ -117,10 +131,9 @@ button {
   display: none;
 }
 footer {
+  text-align: center;
   padding: 20px;
-  background-color: #eee;
+  background-color: #f1f1f1;
   color: #777;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  margin-top: 60px;
 }
