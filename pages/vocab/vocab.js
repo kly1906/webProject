@@ -2,6 +2,8 @@ let VocabData = [];
 let currentTopic = "";
 let topicWords = [];
 let currentIndex = 0;
+let isFlipped = false;
+let currentWord = "";
 const currentUser = localStorage.getItem("currentUser");
 const users = JSON.parse(localStorage.getItem("users")) || {};
 
@@ -13,7 +15,7 @@ script.onload = () => {
 };
 script.onerror = () => {
   document.getElementById("topicButtons").innerText =
-    "Không tải được chủ đề. Vui lòng Thử thách từ vựng lại file vocab_data_snippet.js.";
+    "Không tải được chủ đề. Vui lòng kiểm tra lại file vocab_data_snippet.js.";
 };
 document.head.appendChild(script);
 
@@ -46,6 +48,7 @@ function loadTopic(topic) {
   currentTopic = topic;
   topicWords = VocabData.filter((item) => item.topic === topic);
   currentIndex = 0;
+  isFlipped = false;
   document.getElementById("titleChoose").style.display = "none";
   document.getElementById("topicButtons").style.display = "none";
   document.getElementById("flashcardContainer").style.display = "flex";
@@ -56,12 +59,24 @@ function loadTopic(topic) {
 function renderFlashcard() {
   const card = document.getElementById("flashcard");
   const item = topicWords[currentIndex];
-  card.innerHTML = `
-    <div class="word">${item.word}</div>
-    <div class="ipa">${item.ipa}</div>
-    <div class="vn">${item.vn}</div>
-    <button class="audio-btn" onclick="speak('${item.word}')">🔊</button>
-  `;
+  currentWord = item.word;
+  card.querySelector(".word").innerText = item.word;
+  card.querySelector(".ipa").innerText = item.ipa;
+  card.querySelector(".vn").innerText = item.vn;
+  card.querySelector(".flashcard-inner").classList.remove("flipped");
+  isFlipped = false;
+}
+
+function flipCard() {
+  const cardInner = document.getElementById("flashcard").querySelector(".flashcard-inner");
+  cardInner.classList.toggle("flipped");
+  isFlipped = !isFlipped;
+}
+
+function speakCardWord() {
+  const utterance = new SpeechSynthesisUtterance(currentWord);
+  utterance.lang = "en-US";
+  speechSynthesis.speak(utterance);
 }
 
 function nextCard() {
@@ -85,13 +100,8 @@ function showTopics() {
   document.getElementById("titleChoose").style.display = "block";
 }
 
-function speak(word) {
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = "en-US";
-  speechSynthesis.speak(utterance);
-}
 function logout() {
   localStorage.removeItem("currentUser");
   location.reload();
-  window.location.href = "../login/login.html"
+  window.location.href = "../login/login.html";
 }
