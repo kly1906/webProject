@@ -179,7 +179,6 @@ h2 {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   border-radius: 12px;
   transform-origin: center;
 }
@@ -192,6 +191,8 @@ h2 {
 .flashcard-back {
   position: absolute;
   border: solid 2px black;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.85 );
+
   width: 88%;
   height: 100%;
   backface-visibility: hidden;

@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Học từ vựng tiếng Anh</title>
-  <link rel="stylesheet" href="vocab.css" />
-</head>
-<body>
-  <header>
-    <h1>Học từ vựng tiếng Anh</h1>
-    <div id="user-info"></div>
-  </header>
-  <nav>
-    <a href="#">Thử thách từ vựng</a>
-    <a href="#">Trang cá nhân</a>
-  </nav>
-  <main>
-    <div class="content">
-      <h2 id="titleChoose">Mời chọn chủ đề:</h2>
-      <div class="topics" id="topicButtons">Đang tải chủ đề...</div>
-      <div class="flashcard-container" id="flashcardContainer">
-        <div class="flashcard" id="flashcard">
-          <div class="flashcard-inner">
-            <div class="flashcard-front">
-              <div class="word"></div>
-              <div class="ipa"></div>
-            </div>
-            <div class="flashcard-back">
-              <div class="vn"></div>
-            </div>
-          </div>
-          <br>
-          <br>
-          <button class="audio-btn" onclick="speakCardWord()">🔊</button>
-          <button class="flip-btn" onclick="flipCard()">Lật thẻ</button>
-        </div>
-        <div class="nav-buttons">
-          <button onclick="prevCard()">⬅</button>
-          <button onclick="nextCard()">➡</button>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học từ vựng tiếng Anh</title>
+    <link rel="stylesheet" href="vocab.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="../../index.html">Học từ vựng tiếng Anh </a></h1>
+      <div id="user-info"></div>
+    </header>
+    <nav>
+      <a href="#"onclick="window.location.href='../quiz/quiz.html'">Thử thách từ vựng</a>
+      <a href="#"onclick="window.location.href='../profile/profile.html'">Trang cá nhân</a>
+    </nav>
+    <main>
+            <div class="background">
+        <img src="/assets/images/background.jpeg" alt="" />
       </div>
-      <button class="back-btn" id="backBtn" onclick="showTopics()" style="display: none;">
-        ← Quay lại
-      </button>
-    </div>
-  </main>
-  <footer>
-    <p>© 2025 - Web học từ vựng | Dự án môn Thiết kế Web</p>
-  </footer>
-  <script src="vocab.js"></script>
-</body>
+      <div class="content">
+        <h2 id="titleChoose">Mời chọn chủ đề:</h2>
+        <div class="topics" id="topicButtons">Đang tải chủ đề...</div>
+        <div class="flashcard-container" id="flashcardContainer">
+          <div class="flashcard" id="flashcard">
+            <div class="flashcard-inner">
+              <div class="flashcard-front">
+                <div class="word"></div>
+                <div class="ipa"></div>
+              </div>
+              <div class="flashcard-back">
+                <div class="vn"></div>
+              </div>
+            </div>
+            <br />
+            <br />
+            <button class="audio-btn" onclick="speakCardWord()">🔊</button>
+            <button class="flip-btn" onclick="flipCard()">Lật thẻ</button>
+          </div>
+          <div class="nav-buttons">
+            <button onclick="prevCard()">⬅</button>
+            <button onclick="nextCard()">➡</button>
+          </div>
+        </div>
+        <button
+          class="back-btn"
+          id="backBtn"
+          onclick="showTopics()"
+          style="display: none"
+        >
+          ← Quay lại
+        </button>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Dự án Thiết kế Web cơ bản</p>
+      <p>12423030 - Hoàng Thị Minh Tâm</p>
+    </footer>
+    <script src="vocab.js"></script>
+  </body>
 </html>
