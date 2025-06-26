@@ -1,0 +1,281 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #f4f4fa, #eae6f7);
+  color: #333;
+}
+
+main {
+  flex: 1;
+}
+
+header {
+  background-color: #6c4a9c;
+  padding: 20px 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+#user-info a,
+#user-info span {
+  background-color: #fff;
+  color: #6c4a9c;
+  padding: 8px 16px;
+  border-radius: 20px 0 0 20px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  border: solid 2px;
+}
+
+#user-info a:hover {
+  background-color: #ffccff;
+}
+
+#logout-btn {
+  background: linear-gradient(to right, #ff4b4b, #d32f2f);
+  color: white;
+  padding: 8px 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  height: 32px;
+  line-height: 16px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#logout-btn:hover {
+  background: linear-gradient(to right, #ff6b6b, #f44336);
+}
+
+nav {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 12px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #4a00e0;
+}
+
+h2 {
+  padding-left: 5em;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+  filter: brightness(0.7);
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.topics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.topics button {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #d9b3ff;
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.topics button:hover {
+  background-color: #c299ff;
+}
+
+.flashcard-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.flashcard {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border-radius: 12px;
+  transform-origin: center;
+}
+
+.flashcard-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+  position: absolute;
+  border: solid 2px black;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.85 );
+
+  width: 88%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+.word {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ipa {
+  font-style: italic;
+  color: #888;
+  margin: 5px 0;
+}
+
+.vn {
+  font-size: 18px;
+  color: #555;
+}
+
+.nav-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-buttons button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ccccff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.audio-btn {
+  background: #fcd361;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.flip-btn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.back-btn {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #ccccff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  color: #777;
+  margin-top: 60px;
+}

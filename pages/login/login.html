@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng nhập / Đăng ký - Học từ vựng tiếng Anh</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Đăng nhập / Đăng ký</h1>
+    </header>
+    <main>
+      <section class="box">
+        <h2 id="form-title">Đăng nhập</h2>
+        <div class="input-group">
+          <label for="username"
+            >Tên đăng nhập
+            <span class="require-wrap">
+              <span class="required">*</span>
+              <span class="tooltip">Không được bỏ trống</span>
+            </span>
+          </label>
+          <input type="text" id="username" required />
+        </div>
+        <div class="input-group">
+          <label for="password"
+            >Mật khẩu
+            <span class="require-wrap">
+              <span class="required">*</span>
+              <span class="tooltip">Không được bỏ trống</span>
+            </span>
+          </label>
+          <input type="password" id="password" required />
+        </div>
+        <div class="extra">
+          <div class="input-group">
+            <label for="fullname"
+              >Họ tên
+              <span class="require-wrap">
+                <span class="required">*</span>
+                <span class="tooltip">Ít nhất 5 ký tự, chứa khoảng trắng</span>
+              </span>
+            </label>
+            <input type="text" id="fullname" />
+          </div>
+          <div class="input-group">
+            <label for="dob"
+              >Ngày sinh
+              <span class="require-wrap">
+                <span class="required">*</span>
+                <span class="tooltip">Không được sau ngày hiện tại</span>
+              </span>
+            </label>
+            <input type="date" id="dob" />
+          </div>
+          <div class="input-group">
+            <label for="gender"
+              >Giới tính
+              <span class="require-wrap">
+                <span class="required">*</span>
+                <span class="tooltip">Chỉ chấp nhận Nam hoặc Nữ</span>
+              </span>
+            </label>
+            <select id="gender">
+              <option value="">-- Chọn --</option>
+              <option value="Nam">Nam</option>
+              <option value="Nữ">Nữ</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="phone"
+              >Số điện thoại
+              <span class="require-wrap">
+                <span class="required">*</span>
+                <span class="tooltip">10 chữ số, bắt đầu bằng 0</span>
+              </span>
+            </label>
+            <input type="tel" id="phone" />
+          </div>
+        </div>
+        <div id="error" class="error"></div>
+        <button onclick="handleAuth()" id="auth-btn">Đăng nhập</button>
+        <div class="switch" onclick="toggleForm()" id="switch-text">
+          Chưa có tài khoản? <span class="register-text">Đăng ký</span>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Dự án Thiết kế Web cơ bản</p>
+      <p>12423030 - Hoàng Thị Minh Tâm</p>
+    </footer>
+    <script src="login.js"></script>
+  </body>
+</html>

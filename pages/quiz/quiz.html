@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thử thách từ vựng từ vựng</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1><a href="../../index.html">Học từ vựng tiếng Anh </a></h1>
+      <div id="user-info"></div>
+    </header>
+
+    <nav>
+      <a href="#" onclick="window.location.href='../vocab/vocab.html'"
+        >Học từ mới</a
+      >
+      <a href="#" onclick="window.location.href='../profile/profile.html'"
+        >Trang cá nhân</a
+      >
+    </nav>
+    <main>
+      <div class="background">
+        <img src="/assets/images/background.jpeg" alt="" />
+      </div>
+      <section class="content">
+        <section class="quiz-box">
+          <h2>10 Câu hỏi trắc nghiệm</h2>
+
+          <h3 id="question">Câu hỏi sẽ hiện ở đây</h3>
+          <ul class="answers"></ul>
+          <p class="result"></p>
+          <button id="start" class="btn">Bắt đầu</button>
+          <button id="next" class="btn">Câu tiếp theo</button>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Dự án Thiết kế Web cơ bản</p>
+      <p>12423030 - Hoàng Thị Minh Tâm</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>

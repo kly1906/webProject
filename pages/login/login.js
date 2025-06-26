@@ -4,7 +4,9 @@ function toggleForm() {
   isLogin = !isLogin;
   document.getElementById("form-title").innerText = isLogin ? "Đăng nhập" : "Đăng ký";
   document.getElementById("auth-btn").innerText = isLogin ? "Đăng nhập" : "Đăng ký";
-  document.getElementById("switch-text").innerText = isLogin ? "Chưa có tài khoản? Đăng ký" : "Đã có tài khoản? Đăng nhập";
+  document.getElementById("switch-text").innerHTML = isLogin 
+    ? 'Chưa có tài khoản? <span class="register-text">Đăng ký</span>' 
+    : 'Đã có tài khoản? <span class="register-text">Đăng nhập</span>';
   document.querySelector(".extra").style.display = isLogin ? "none" : "block";
   document.getElementById("error").innerText = "";
 }
@@ -19,9 +21,9 @@ function handleAuth() {
     return;
   }
 
-  const usernameRegex = /^(?=.*[a-zA-Z])(?=.*\d)(?=.*[_@.])[a-zA-Z\d_@.]{8,}$/;
-  if (!usernameRegex.test(username)) {
-    errorBox.innerText = "Tên đăng nhập phải từ 8 ký tự, gồm chữ, số và ít nhất 1 trong các ký tự: _ @ .";
+  const passwordRegex = /^(?=.*[a-zA-Z])(?=.*\d)(?=.*[_@.])[a-zA-Z\d_@.]{8,}$/;
+  if (!passwordRegex.test(password)) {
+    errorBox.innerText = "Mật khẩu phải từ 8 ký tự, gồm chữ, số và ít nhất 1 trong các ký tự: _ @ .";
     return;
   }
 
@@ -30,7 +32,7 @@ function handleAuth() {
   if (isLogin) {
     if (users[username] && users[username].password === password) {
       localStorage.setItem("currentUser", username);
-      window.location.href = "index.html";
+      window.location.href = "../../index.html";
     } else {
       errorBox.innerText = "Sai tên đăng nhập hoặc mật khẩu.";
     }
@@ -83,6 +85,6 @@ function handleAuth() {
 
     localStorage.setItem("users", JSON.stringify(users));
     localStorage.setItem("currentUser", username);
-    window.location.href = "index.html";
+    window.location.href = "../../index.html";
   }
 }
